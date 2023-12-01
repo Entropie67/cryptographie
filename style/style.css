@@ -14,4 +14,7 @@ body {
     background-color: #fff;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

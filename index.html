@@ -15,12 +15,16 @@
         <section id="cesar">
             <h2>1. Chiffrement par décalage (César) </h2>
             <form id="cesarForm">
-                <p><label for="message">Votre message à traiter:</label></p>
-                <textarea id="message" name="message" rows="4" cols="50">
-                Entrez ici votre texte à chiffrer ou déchiffrer
-                </textarea>
-                <p><label for="cle">Clé:</label></p>
-                <input type="number" id="cle" name="cle" min="1" max="26" value="1">
+                <div>
+                    <p><label for="message">Votre message à traiter:</label></p>
+                    <textarea id="message" name="message" rows="4" cols="50">
+                    Entrez ici votre texte à chiffrer ou déchiffrer
+                    </textarea>
+                </div>
+                <div>
+                    <p><label for="cle">Clé:</label></p>
+                    <input type="number" id="cle" name="cle" min="1" max="26" value="1">
+                </div>
             </form>
             <div class="button">
                 <button type="button" id="chiffrer">Chiffrer!</button>
