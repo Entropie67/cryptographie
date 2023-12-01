@@ -7,3 +7,11 @@ h1 {
 body {
     background-color: #aa85aa;
 }
+
+#cesarForm {
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
